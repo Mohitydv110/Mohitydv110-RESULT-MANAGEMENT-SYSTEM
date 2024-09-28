@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: rgb(222, 212, 200);
+}
+
+.resultsTable, .resultsTable td, .resultsTable th{
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 10px 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.loginTable td {
+    /* border-collapse: collapse;
+    border: 1px solid black; */
+    padding: 10px;
+}
+
+.addResults * {
+    border-collapse: collapse;
+    /*border: 1px solid black;*/
+    padding: 5px 10px;
+}
